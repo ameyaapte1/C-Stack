@@ -1,5 +1,6 @@
 #define MAX 128
 #include <stdio.h>
+
 #include "stack.h"
 
 char pop(stack *stk) {
