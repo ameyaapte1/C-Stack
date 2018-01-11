@@ -1,3 +1,4 @@
+
 #include "stack.h"
 
 char pop(stack *stk) {
