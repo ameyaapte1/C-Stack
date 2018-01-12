@@ -1,8 +1,8 @@
+#include<stdio.h>
 #include "stack.h"
 int main( int argc, char *argv[] )
 {
         stack s;
-        int i;
         init(&s);
         push(&s,'a');
         push(&s,'m');
@@ -14,7 +14,7 @@ int main( int argc, char *argv[] )
         push(&s,'3');
 
         while(!empty(&s))
-                printf("%c",pop(&s));
+                printf("%c\n",pop(&s));
         return 0;
 }
 
